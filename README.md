@@ -1,6 +1,9 @@
+###
+This is a personal project for a potfolio site madde in ReactJS
+![img](https://github.com/evemf/master/image/03.jpg?raw=true)
+
 About [`particles-bg`](https://github.com/lindelof/particles-bg) Library
-This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple.
-![img](https://github.com/lindelof/particles-bg/raw/master/image/03.jpg?raw=true)
+This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg).
 
 Description
 This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template).
@@ -8,11 +11,10 @@ This project forks from [https://github.com/tbakerx/react-resume-template](https
 
 Run the project
 ```shell
-npm i
-npm start
+'npm start' or 'yarn start'
 ```
 
-Build
+Build the project
 ```shell
-npm run build
+'npm run build' or 'yarn build'
 ```
