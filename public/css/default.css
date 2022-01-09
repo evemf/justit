@@ -1,0 +1,327 @@
+/*
+=====================================================================
+*   v1.0 Default Stylesheet
+*   url: eveliamolina.com
+*   14-12-2021
+=====================================================================
+
+a. Webfonts and Icon fonts
+b. Reset
+c. Basics
+d. Typography
+e. Links
+f. Images
+g. Buttons
+h. Forms
+i. Media queries
+
+=====================================================================  */
+
+/* a. Webfonts and Icon fonts
+ ------------------------------------------------------------------ */
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+
+/* b. Reset
+ ------------------------------------------------------------------ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+}
+
+audio,
+canvas,
+video {
+   display: inline-block;
+}
+
+audio:not([controls]) {
+   display: none;
+   height: 0;
+}
+
+[hidden] { display: none; }
+
+code, kbd, pre, samp {
+   font-family: monospace, serif;
+   font-size: 1em;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+blockquote, q { quotes: &#8220 &#8220; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+
+ins {
+   background-color: #ff9;
+   color: #000;
+   text-decoration: none;
+}
+
+mark {
+   background-color: #A7F4F6;
+   color: #555;
+}
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+   border-bottom: 1px dotted;
+   cursor: help;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+
+/* c. Basics
+ ------------------------------------------------------------------ */
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   -webkit-font-smoothing: antialiased;
+}
+
+body {
+   background: #fff;
+   font-family: 'Finger Paint', cursive;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 30px;
+	color: #838C95;
+
+   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+/* d. Typography
+ ------------------------------------------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+   color: #313131;
+	font-family: 'Permanent Marker', cursive;
+   font-weight: normal;
+}
+
+p.lead {
+   font: 16px/30px 'Finger Paint', cursive;
+   margin-bottom: 0;
+}
+
+/* e. Links
+ ------------------------------------------------------------------ */
+
+a, a:visited {
+   text-decoration: none;
+   outline: 0;
+   color: #11ABB0;
+
+   -webkit-transition: color .3s ease-in-out;
+   -moz-transition: color .3s ease-in-out;
+   -o-transition: color .3s ease-in-out;
+   transition: color .3s ease-in-out;
+}
+
+a:hover, a:focus { 
+   color: #313131;
+}
+
+p a, 
+p a:visited { 
+   line-height: inherit; 
+}
+
+/* f. Images
+ ------------------------------------------------------------------ */
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+/* g. Buttons
+ ------------------------------------------------------------------ */
+.button,
+.button:visited,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+   font: 16px/30px 'Finger Paint', cursive;
+   background: #760000;
+   display: inline-block;
+	text-decoration: none;
+   letter-spacing: 0;
+   color: #fff;
+	padding: 8px 20px;
+	margin-bottom: 18px;
+   border: none;
+   cursor: pointer;
+   height: auto;
+   -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+   -moz-border-radius: 0px;
+   -webkit-border-radius: 0px;
+   -khtml-border-radius: 0px;
+   border-radius: 0px;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+   background: #3d4145;
+   color: #fff;
+}
+
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+   background: #3d4145;
+   color: #fff;
+}
+
+/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* h. Forms
+ ------------------------------------------------------------------ */
+form { 
+   margin-bottom: 24px;
+}
+
+fieldset { 
+   margin-bottom: 24px;}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+   display: inline-block;
+   padding: 18px 15px;
+   margin: 0 0 24px 0;
+   border: 0;
+   outline: none;
+   vertical-align: middle;
+   min-width: 225px;
+	max-width: 100%;
+   font-size: 15px;
+   line-height: 24px;
+	color: #647373;
+	background: #D3D9D9;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+   color: #B3B7BC;
+	background-color: #3d4145;
+}
+
+textarea { 
+   min-height: 220px;
+}
+
+label,
+legend {
+   font: 16px/24px 'Permanent Marker', cursive;
+	margin: 12px 0;
+   color: #3d4145;
+   display: block;
+}
+
+label span,
+legend span {
+	color: #8B9798;
+   font: 14px/24px 'Finger Paint', cursive;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    font-size: 15px;
+    color: #737373;
+}
+
+input[type="checkbox"] {
+    display: inline;
+}
+
+/* i. Media queries
+ ------------------------------------------------------------------ */
+
+/* media query - desktop
+--------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+}
+
+/* media query - mobile
+--------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* mobile narrow
+--------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+}

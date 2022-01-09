@@ -1,0 +1,168 @@
+{
+  "main": {
+    "name":"Evelia Molina",
+    "description":"FRONT-END / WORDPRESS DEVELOPER",
+    "image":"profile_img.jpg",
+    "bio":"Hi! I'm Evelia, a front-end and wordpress developer with over 6 yers of experience on web development based in Barcelona.",
+    "contactmessage":"Do you have any questions for me? Just pop me a message! I'll get back to you ASAP.",
+    "email": "evemolina7@gmail.com",
+    "phone": "+34 676 12 09 36",
+    "github":"https://github.com/evemf/",
+    "project":"https://github.com/evemf?tab=repositories",
+    "projectstitle": "Projects",
+    "address":{
+      "city":"Barcelona",
+      "state":"Spain",
+      "zip": "08110"
+    },
+    "website": "http://www.eveliamolina.com",
+    "resumedownloadES":"evelia_molina_ES.pdf",
+    "resumedownloadEN": "evelia_molina_EN.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://es-la.facebook.com/evelia.molinafernandez",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://es.linkedin.com/in/eveliamolina",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/eve_mf/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/evemf",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"IES Castellarnau",
+        "degree":"Superior IT and computering technician",
+        "graduated":"09/2010 - 06/2013",
+        "description":"Antennas, telephone lines, software and hardware and C++."
+      }
+    ],
+    "work":[
+      {
+        "company":"Machinas Development",
+        "title":"HTML/CSS developer",
+        "years":"09/2021 - present",
+        "tech":"HTML5, CSS3, Salesforce development"
+      },
+      {
+        "company":"Hydragrafix SCP",
+        "title":"Web developer",
+        "years":"06/2021 - 09/2021",
+        "tech":"Wordpress, MySQL, PHP, HTML5, CSS3, JAVASCRIPT, npm, Figma."
+      },
+      {
+        "company":"Cerba Internacional",
+        "title":"Front-end developer",
+        "years":"08/2020 - 06/2021",
+        "tech":"HTML/HTML5, CSS3/SCSS, JS, Angular 5, Angular 7, Cache InterSystems, npm, MySQL, Jira, Jenkins, Gulp, Bitbucket."
+      },
+      {
+        "company":"Netztrategen SL",
+        "title":"Front-end developer",
+        "years":"06/2019 - 06/2020",
+        "tech":"Google Analytics, SEO, HTML/HTML5, Timber, Twig, CSS3/SCSS, Javascript, WordPress, woocommerce, ACF, PHP, MySQL, npm, Composer, Parallels, Git, Github, Gulp, Jira, Asana, Mite, Notion, Sketch, Bitbucket, Agile environment, 2 week sprint, daily meetings."
+      },
+      {
+        "company":"Movetia",
+        "title":"Front-end developer",
+        "years":"04/2017 - 06/2019",
+        "tech":"HTML/HTML5, Pug, Handlebars, CSS3/SCSS, Bootstrap, Javascript, jQuery, StencilJS, AngularJS, Angular 2, ReactJS, web components, WordPress, PHP, npm, Google Analytics, Jira, Redbooth, Trello, Jenkins, Bitbucket, VPN, Sourcetree, Github, Git, Gulp, Grunt, sketch, Figma, InVision, Zeplin, Agile environment, 2 week sprint, daily meetings."
+      },
+      {
+        "company":"Limitless Internet Solutions",
+        "title":"Junior full-stack developer",
+        "years":"04/2017 - 06/2019",
+        "tech":"HTML/HTML5, email development, Dreamweaver, CSS3/SCSS, Bootstrap, Susy, Javascript, jQuery, WordPress, Wordpress Theme development, PHP, Yii II, Jira, Git, Gulp, Sketch, Illustrator."
+      },
+      {
+        "company":"T-Systems",
+        "title":"Helpdesk support - L1 (apprenticeship)",
+        "years":"05/2013 - 10/2013",
+        "tech":"VirtualBox, OSTicket, LogmeIn, TeamViewer, Anydesk, SAP, Dameware."
+      }
+    ],
+    "skills":[
+      {
+        "name":"HTML",
+        "level":"95%"
+      },
+      {
+        "name":"CSS/SCSS",
+        "level":"90%"
+      },
+      {
+        "name":"JAVASCRIPT",
+        "level":"70%"
+      },
+      {
+        "name":"WORDPRESS",
+        "level":"70%"
+      },
+      {
+        "name":"PHP",
+        "level":"60%"
+      },
+      {
+        "name":"MySQL",
+        "level":"50%"
+      },
+      {
+        "name":"Git",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Armit Wines",
+        "category":"wine",
+        "image":"armitwines_desktop.png",
+        "url":"https://www.qwines.co.uk/"
+      },
+      {
+        "title":"Quality Wines Somerset",
+        "category":"wine",
+        "image":"qwines_desktop.png",
+        "url":"https://www.qwines.co.uk/"
+      },
+      {
+        "title":"Palmers Wine Store",
+        "category":"wine",
+        "image":"palmers_desktop.png",
+        "url":"https://www.palmerswinestore.com/"
+      },
+      {
+        "title":"Banc Sabadell - particulars",
+        "category":"banking",
+        "image":"bs_desktop.png",
+        "url":"https://www.bancsabadell.com/cs/Satellite/SabAtl/"
+      },
+      {
+        "title":"Denison Design",
+        "category":"informative",
+        "image":"denison_desktop.png",
+        "url":"https://denison.co.uk/"
+      },
+      {
+        "title":"Siwa ST",
+        "category":"e-shop",
+        "image":"siwa_desktop.png",
+        "url":""
+      }
+    ]
+  }
+}
